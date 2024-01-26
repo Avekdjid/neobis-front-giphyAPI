@@ -1,0 +1,102 @@
+body {
+  max-width: 95rem;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  max-width: 95rem;
+  width: 100%;
+  height: 6rem;
+  background-image: linear-gradient(to right, #f388ff 45%, #5abfff, #5ef590);
+  display: flex;
+  justify-content: space-between;
+  /* position: fixed; */
+}
+
+.nav__logo {
+  display: flex;
+}
+
+.nav__logo__text {
+  color: white;
+  font-size: 1.8rem;
+  padding: 0 1rem;
+}
+
+.nav__logo__img {
+  width: 3rem;
+  padding: 0 0 0 1rem;
+}
+
+.nav__search__bar {
+  height: 2.7rem;
+  width: 18rem;
+
+  background-color: white;
+  display: flex;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+  border-radius: 2rem;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav__search__inp {
+  border: none;
+  border-radius: 5rem;
+  outline: none;
+  font-size: 1rem;
+}
+
+.nav__search__input__btn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.nav__search__img {
+  height: 1.5rem;
+}
+
+.gif__card__container {
+  padding: 0.6rem;
+  display: flex;
+  max-width: 90rem;
+  flex-wrap: wrap;
+}
+
+.gif__card {
+  max-width: 100%;
+  width: 30rem;
+  height: 25rem;
+  padding: 0.6rem;
+  box-sizing: border-box;
+}
+
+.gif__card__img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 160rem) {
+  .navbar {
+    max-width: 160rem;
+    width: 100%;
+    height: 6rem;
+    background-image: linear-gradient(to right, #f388ff 45%, #5abfff, #5ef590);
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (max-width: 120rem) {
+  .navbar {
+    max-width: 120rem;
+    width: 100%;
+    height: 6rem;
+    background-image: linear-gradient(to right, #f388ff 45%, #5abfff, #5ef590);
+    display: flex;
+    justify-content: space-between;
+  }
+}
